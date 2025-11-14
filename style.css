@@ -52,10 +52,10 @@ div img {
 }
 
 .col-2 {
-	background-color: #483ba1;
+	background-color: #9082ec;
 }
 .col-3 {
-	background-color: #044500;
+	background-color: #8da3ff;
 }
 
 /* Tablet Landscape Screen Sizes */
@@ -85,7 +85,7 @@ div img {
 		flex: 0 0 44%;
 	}
 	.col-3 {
-		flex: 0 0 68%;
+		flex: 0 0 70%;
 	}
 }
 
