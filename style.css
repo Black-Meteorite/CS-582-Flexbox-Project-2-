@@ -54,6 +54,9 @@ div img {
 .col-2 {
 	background-color: #FFFCE6;
 }
+.col-3 {
+	background-color: #044500;
+}
 
 /* Tablet Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
