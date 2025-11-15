@@ -107,7 +107,7 @@ div img {
 }
 
 
-.row-6 .mini-card {
+.col-6 .mini-card {
   background-color: #e8f4ff;
   padding: 1rem;
   border-radius: 4px;
@@ -116,13 +116,13 @@ div img {
 }
 
 /* mini thumbnails */
-.row-6 .mini-card img {
+.col-6 .mini-card img {
   width: 100%;
   border-radius: 3px;
 }
 
 /* The special card grows more than the rest */
-.row-6 .special {
+.col-6 .special {
   flex-grow: 2;             /* grows bigger */
   align-self: flex-start;   /* stands out vertically */
   background-color: #d6ecff;
@@ -130,18 +130,18 @@ div img {
 
 /* TABLET: 3 per row */
 @media only screen and (min-width: 480px) {
-  .row-6 .mini-card {
+  .col-6 .mini-card {
     flex: 0 0 30%;
   }
 }
 
 /* DESKTOP: 5 per row */
 @media only screen and (min-width: 768px) {
-  .row-6 .mini-card {
+  .col-6 .mini-card {
     flex: 0 0 16%;
   }
 
-  .row-6 .special {
+  .col-6 .special {
     flex: 0 0 20%;   /* slightly wider */
   }
 }
